@@ -1,0 +1,11 @@
+[workspace]
+members = ["flash"]
+
+[package]
+name = "plugins"
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+miniserde = "0.1.45"
+log = "0.4.33"
